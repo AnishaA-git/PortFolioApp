@@ -179,7 +179,7 @@
 
             <TextView
                 android:id="@+id/description"
-                android:text="I m pursuing MS in Software Engineering from SJSU, I am specializing in Cloud technologies.
+                android:text="I m pursuing MS in Software Engineering from SJSU, I am specializing in Cloud technologies and Mobile App Development
 At present I am in 2nd Semester and will be graduating by 2021 december."
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -223,8 +223,7 @@ At present I am in 2nd Semester and will be graduating by 2021 december."
 
             <TextView
                 android:id="@+id/txt_app"
-                android:text="I m pursuing MS in Software Engineering from SJSU, I am specializing in Cloud technologies.
-At present I am in 2nd Semester and will be graduating by 2021 december."
+                android:text="I have created this PortFolio app as my First App for the Assignment submission.This App contains 3 different fragments with different views. I have used CardView, RelativeLayout, GridView, ConstraintLayout for the UI."
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"

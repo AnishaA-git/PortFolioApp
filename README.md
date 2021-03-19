@@ -1,5 +1,6 @@
 # PortFolioApp
 
-![portfolio_home](https://user-images.githubusercontent.com/70603792/111500607-6a1dff80-8701-11eb-8ee7-3a79aee2d9df.png)
-![portfolio_projects](https://user-images.githubusercontent.com/70603792/111500613-6be7c300-8701-11eb-9569-b5f0b672e73c.png)
-![portfolio_contact](https://user-images.githubusercontent.com/70603792/111500624-6db18680-8701-11eb-94a7-f98e449c5922.png)
+![portfolio-change](https://user-images.githubusercontent.com/70603792/111502713-570c2f00-8703-11eb-9258-3273f0d2f9f5.png)
+![portfolio_projects](https://user-images.githubusercontent.com/70603792/111502717-58d5f280-8703-11eb-8182-bcc0cab81fb0.png)
+![portfolio_contact](https://user-images.githubusercontent.com/70603792/111502722-5a071f80-8703-11eb-9e00-6d4f1758cb4e.png)
+

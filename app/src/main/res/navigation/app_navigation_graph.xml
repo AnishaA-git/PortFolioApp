@@ -8,7 +8,14 @@
         android:id="@+id/fragmentHome"
         android:name="com.example.portfolio.fragments.FragmentHome"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentProjects"
+            app:destination="@id/fragmentProjects" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentContact"
+            app:destination="@id/fragmentContact" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentProjects"
         android:name="com.example.portfolio.fragments.FragmentProjects"

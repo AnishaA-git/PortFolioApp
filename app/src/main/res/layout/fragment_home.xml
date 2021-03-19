@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+
     android:scrollbars="none"
     tools:context=".fragments.FragmentHome">
 
@@ -72,12 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView
+    <Button
         android:id="@+id/txt_experience_label"
         android:text="5+"
         android:textSize="20sp"
         android:textColor="@color/colorPrimary"
-        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="0dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -89,7 +89,7 @@
     <TextView
         android:id="@+id/txt_experience"
         android:text="Yrs Experience"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -98,12 +98,13 @@
         app:layout_constraintTop_toBottomOf="@id/txt_experience_label"
         android:gravity="center_horizontal" />
 
-    <TextView
-        android:id="@+id/txt_project_label"
+    <Button
+        android:id="@+id/Project"
         android:text="5+"
         android:textSize="20sp"
         android:textColor="@color/colorPrimary"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/white"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -115,21 +116,22 @@
     <TextView
         android:id="@+id/txt_projects"
         android:text="Projects"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="@+id/vg33"
         app:layout_constraintRight_toRightOf="@+id/vg66"
-        app:layout_constraintTop_toBottomOf="@id/txt_project_label"
+        app:layout_constraintTop_toBottomOf="@id/Project"
         android:gravity="center_horizontal" />
 
-    <TextView
-        android:id="@+id/txt_contact_label"
+    <Button
+        android:id="@+id/Contact"
         android:text="5+"
         android:textSize="20sp"
         android:textColor="@color/colorPrimary"
-        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="0dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -141,13 +143,13 @@
     <TextView
         android:id="@+id/txt_contact"
         android:text="Happy Clients"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="@+id/vg66"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_contact_label"
+        app:layout_constraintTop_toBottomOf="@id/Contact"
         android:gravity="center_horizontal" />
 
     <androidx.cardview.widget.CardView
@@ -266,4 +268,4 @@ At present I am in 2nd Semester and will be graduating by 2021 december."
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-</ScrollView>
+</layout>

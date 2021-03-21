@@ -1,5 +1,6 @@
 # PortFolioApp
-# https://youtu.be/LoyaOFo85k0 - YouTube Link
+# https://youtu.be/LoyaOFo85k0 - App YouTube Link
+# https://youtu.be/gcok0vl5plU - Detailed code YouTube Link
 
 ![fragment](https://user-images.githubusercontent.com/70603792/111855348-9f814380-88e1-11eb-9d1a-fc88193a6fb6.png)
 ![Menu](https://user-images.githubusercontent.com/70603792/111855387-dbb4a400-88e1-11eb-803a-350a147f9fc6.png)
